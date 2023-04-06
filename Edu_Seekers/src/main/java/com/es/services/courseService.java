@@ -1,0 +1,18 @@
+package com.es.services;
+
+import java.util.List;
+
+import com.es.entity.Course;
+
+public interface courseService {
+	
+	public List<Course> getCourses();
+
+	public Course getCourse(long courseId); 
+	
+	public Course addCourse(Course course);
+	
+	public Course updateCourse(Course course);
+	
+	public void deleteCourse(long  parseLong);
+}
